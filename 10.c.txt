@@ -1,0 +1,9 @@
+// Example program
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+printf("  x |   1   |   2   |   3   |   4   |   5 \n");
+printf("----+-------+-------+-------+-------+-------\n");
+printf("F(x)|  %.2lf |  %.2lf |  %.2lf |  %.2lf |  %.2lf ", exp(-1), exp(-4), exp(-9), exp(-16),exp(-25));
+}
